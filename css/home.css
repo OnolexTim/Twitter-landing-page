@@ -161,29 +161,28 @@ form {
     padding-left: 30px;
     padding-bottom: 7px;
 }
-.user {
+.user{
     padding-top: 7px;
-    padding-right: 30px;
-    padding-left: 30px;
+    padding-right: 160px;
+    padding-left: 160px;
     padding-bottom: 7px;
     background-color: rgba(9, 159, 209, 0.897);
-    border-radius: 15px;
-    margin-left: 10.1vw;
-    margin-right: 15vw;
+    border-radius: 20px;
+    margin-left: 3vw;
+    margin-right: 7vw;
 }
 
-.user1 {
+.user1{
     padding-top: 7px;
-    padding-right: 30px;
-    padding-left: 30px;
+    padding-right: 165px;
+    padding-left: 165px;
     padding-bottom: 7px;
-    border-radius: 15px;
-    margin-left: 10.1vw;
-    margin-right: 15vw;
+    border-radius: 20px;
+    margin-left: 3vw;
+    margin-right: 7vw;
     color: rgba(9, 159, 209, 0.897);
-    border: 1px solid rgba(9, 159, 209, 0.897);
+    border: 2px solid rgba(9, 159, 209, 0.247);
 }
-
 
 /* Normal desktop :1200px. */
 
@@ -235,22 +234,22 @@ form {
     
         .user{
             padding-top: 7px;
-            padding-right: 80px;
-            padding-left: 80px;
+            padding-right: 160px;
+            padding-left: 160px;
             padding-bottom: 7px;
             background-color: rgba(9, 159, 209, 0.897);
             border-radius: 20px;
-            margin-left: 6vw;
+            margin-left: 3vw;
             margin-right: 7vw;
         }
 
         .user1{
             padding-top: 7px;
-            padding-right: 80px;
-            padding-left: 80px;
+            padding-right: 165px;
+            padding-left: 165px;
             padding-bottom: 7px;
             border-radius: 20px;
-            margin-left: 6vw;
+            margin-left: 3vw;
             margin-right: 7vw;
             color: rgba(9, 159, 209, 0.897);
             border: 2px solid rgba(9, 159, 209, 0.247);
@@ -470,8 +469,8 @@ footer, nav, ul, li a{
 
     .user {
         padding-top: 7px;
-        padding-right: 30px;
-        padding-left: 30px;
+        padding-right: 130px;
+        padding-left: 130px;
         padding-bottom: 7px;
        
         margin-left: 5vw;
@@ -479,9 +478,10 @@ footer, nav, ul, li a{
     }
     
     .user1 {
+        margin-top: 30px;
         padding-top: 7px;
-        padding-right: 30px;
-        padding-left: 30px;
+        padding-right: 140px;
+        padding-left: 140px;
         padding-bottom: 7px;
         border-radius: 15px;
         margin-left: 5vw;
@@ -586,10 +586,10 @@ display: none;
    }
 
    .user {
-    padding-top: 7px;
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-bottom: 7px;
+    padding-top: 9px;
+    padding-right: 195px;
+    padding-left: 195px;
+    padding-bottom: 9px;
     border-radius: 18px;
     margin-left:20vw;
     margin-right: 20vw;
@@ -602,15 +602,15 @@ display: none;
     padding-left: 78px;
     padding-bottom: 7px;
     border-radius: 15px;
-    margin-left:18vw;
+    margin-left:3vw;
     margin-right: 0vw;
        
    }
 
    .usery{
     padding-top: 7px;
-    padding-right: 78px;
-    padding-left: 78px;
+    padding-right: 85px;
+    padding-left: 85px;
     padding-bottom: 7px;
     border-radius: 15px;
     margin-left:18vw;
@@ -620,8 +620,8 @@ display: none;
    
    .user1 {
        padding-top: 7px;
-       padding-right: 30px;
-       padding-left: 30px;
+       padding-right: 196px;
+       padding-left: 196px;
        padding-bottom: 7px;
        border-radius: 15px;
        margin-left:20vw;
@@ -716,8 +716,66 @@ display: none;
 
     .user {
         padding-top: 7px;
-        padding-right: 30px;
-        padding-left: 30px;
+        padding-right: 128px;
+        padding-left: 128px;
+        padding-bottom: 7px;
+        border-radius: 18px;
+        margin-left: 0vw;
+        margin-right: 0vw;
+    }
+    
+    .user1 {
+        padding-top: 7px;
+        padding-right: 130px;
+        padding-left: 130px;
+        padding-bottom: 7px;
+        border-radius: 18px;
+        margin-left: 0vw;
+        margin-right: 0vw;
+        
+    }
+
+    .userx{
+        background-color: rgba(9, 159, 209, 0.897);
+        border-radius: 15px;
+        padding-top: 7px;
+        padding-right:32px;
+        padding-left: 32px;
+        padding-bottom: 7px;
+        font-size: 14px;
+    }
+    .usery{
+        color: rgba(9, 159, 209, 0.897);
+        border: 1px solid rgba(9, 159, 209, 0.897);
+        border-radius: 15px;
+        padding-top: 7px;
+        padding-right: 40px;
+        padding-left: 40px;
+        padding-bottom: 7px;
+        font-size: 14px;
+    }
+
+  
+ 
+    
+       
+       
+
+}
+   
+
+/* Large Mobile :480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .header1{
+        display: none;
+    }
+
+    .user {
+        padding-top: 7px;
+        padding-right: 130px;
+        padding-left: 130px;
         padding-bottom: 7px;
         border-radius: 18px;
         margin-left: 5vw;
@@ -726,8 +784,8 @@ display: none;
     
     .user1 {
         padding-top: 7px;
-        padding-right: 30px;
-        padding-left: 30px;
+        padding-right: 134px;
+        padding-left: 134px;
         padding-bottom: 7px;
         border-radius: 18px;
         margin-left: 5vw;
@@ -755,21 +813,5 @@ display: none;
         font-size: 14px;
     }
 
-  
- 
-    
-       
-       
-
-}
-   
-
-/* Large Mobile :480px. */
-
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-
-    .header1{
-        display: none;
-    }
 }
 
