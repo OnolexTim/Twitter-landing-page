@@ -720,18 +720,17 @@ display: none;
 
     .user {
         padding-top: 7px;
-        padding-right: 100px;
-        padding-left: 100px;
+        padding-right: 34vw;
+        padding-left: 34vw;
         padding-bottom: 7px;
         border-radius: 18px;
-        margin-left: 0vw;
-        margin-right: 0vw;
+      
     }
     
     .user1 {
         padding-top: 7px;
-        padding-right: 110px;
-        padding-left: 110px;
+        padding-right: 36vw;
+        padding-left: 36vw;
         padding-bottom: 7px;
         border-radius: 18px;
         margin-left: 0vw;
@@ -743,20 +742,24 @@ display: none;
         background-color: rgba(9, 159, 209, 0.897);
         border-radius: 15px;
         padding-top: 7px;
-        padding-right:18px;
-        padding-left: 18px;
+        padding-right:10vw;
+        padding-left: 10vw;
         padding-bottom: 7px;
         font-size: 14px;
+        margin-left: 0vw;
+        margin-right: 0vw;
     }
     .usery{
         color: rgba(9, 159, 209, 0.897);
         border: 1px solid rgba(9, 159, 209, 0.897);
         border-radius: 15px;
         padding-top: 7px;
-        padding-right: 20px;
-        padding-left: 20px;
+        padding-right: 8vw;
+        padding-left: 8vw;
         padding-bottom: 7px;
         font-size: 14px;
+        margin-left: 0vw;
+        margin-right: 0vw;
     }
 
     
@@ -862,3 +865,84 @@ display: none;
 
 }
 
+
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+
+
+    
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: landscape) {
+
+}
+
+/* ----------- Galaxy S4, S5 and Note 3 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+    .user {
+        padding-top: 7px;
+        padding-right: 130px;
+        padding-left: 130px;
+        padding-bottom: 7px;
+        border-radius: 18px;
+        margin-left: 5vw;
+        margin-right: 8vw;
+    }
+    
+    .user1 {
+        padding-top: 7px;
+        padding-right: 45px;
+        padding-left:45px;
+        padding-bottom: 7px;
+        border-radius: 18px;
+        margin-left: 5vw;
+        margin-right: 8vw;
+        
+    }
+
+    .userx{
+        background-color: rgba(9, 159, 209, 0.897);
+        border-radius: 15px;
+        padding-top: 7px;
+        padding-right:50px;
+        padding-left: 50px;
+        padding-bottom: 7px;
+        font-size: 14px;
+    }
+    .usery{
+        color: rgba(9, 159, 209, 0.897);
+        border: 1px solid rgba(9, 159, 209, 0.897);
+        border-radius: 15px;
+        padding-top: 7px;
+        padding-right: 50px;
+        padding-left: 50px;
+        padding-bottom: 7px;
+        font-size: 14px;
+    }
+}
